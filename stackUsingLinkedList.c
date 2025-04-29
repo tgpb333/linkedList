@@ -18,7 +18,7 @@ typedef struct Stack{
 }Stack;
 
 void initialize(Stack* stack){
-  Node* head = NULL;
+  stack->head = NULL;
 }
 
 int isEmpty(Stack* stack){
